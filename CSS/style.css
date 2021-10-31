@@ -1,9 +1,4 @@
-/*  Colors
-    #0a0c09
-    #747572
-    #b09
-    #e1e0e1
-
+/* 
     Fonts
     font-family: 'IBM Plex Serif', serif;
     font-family: 'Open Sans', sans-serif;
@@ -17,7 +12,7 @@
 
 body {
     display: grid;
-    height: auto;
+    height: 100vh;
     grid-template-columns: 10rem, 1fr;
     grid-template-rows: 3rem;
     grid-template-areas: 
@@ -30,8 +25,8 @@ header {
     display: flex;
     align-items: center;
     justify-content: flex-start;
-    background-color: #b09aeb;
-    color: #b09;
+    background-color: #8A5082;
+    color: #FF7B89;
     font-family: 'Open Sans', sans-serif;
     position: sticky;
     top: 0;
@@ -45,18 +40,21 @@ nav ul{
     margin-left: 10px;
 }
 
-
+a {
+    text-decoration: none;
+}
 a:visited {
-    color: #b09;
+    color: #FF7B89;
 }
 a:hover {
-    background-color: #747572;
+    background-color: #FDC1DE;
 }
 
 
 main {
     grid-area: body;
     font-family: 'Open Sans', sans-serif;
+    background-color: #F0DBFE;
 }
 
 div {
@@ -71,7 +69,6 @@ div ol li {
 
 .courseList {
     display: grid;
-    align-items: center;
     justify-content: center;
     font-size: 2rem;
     grid-template-columns: repeat(3, 20rem);
@@ -81,14 +78,17 @@ div ol li {
 }
 
 .courseList > li {
-    border:1px solid red;
+    display: flex;
+    align-items: center;
+    border:1px solid #FF7B89;
     border-radius: 5px;
-    background-color: #b09aeb;
+    background-color: #FDC1DE;
     width: 300px;
     height: 150px;
 }
 
 img {
     margin: 10px;
+    border: 5px solid #FF7B89;
 }
 
