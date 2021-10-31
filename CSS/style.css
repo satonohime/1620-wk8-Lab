@@ -26,7 +26,6 @@ header {
     align-items: center;
     justify-content: flex-start;
     background-color: #8A5082;
-    color: #FF7B89;
     font-family: 'Open Sans', sans-serif;
     position: sticky;
     top: 0;
@@ -36,12 +35,14 @@ nav ul{
     display: flex;
     align-items: baseline;
     list-style: none;
+    color: #FF7B89;
     gap: 10px;
     margin-left: 10px;
 }
 
 a {
     text-decoration: none;
+    color: #FF7B89;
 }
 a:visited {
     color: #FF7B89;
